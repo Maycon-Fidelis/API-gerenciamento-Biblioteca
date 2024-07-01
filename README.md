@@ -89,8 +89,6 @@ CREATE TABLE AGENDAMENTO (
 ## Configure as variáveis de ambiente no arquivo config/db.js:
 
 ```bash
-js
-Copiar código
 const { Pool } = require('pg');
 
 const pool = new Pool({
